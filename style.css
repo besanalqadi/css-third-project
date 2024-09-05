@@ -1,0 +1,259 @@
+body{
+    font-size: 22px;
+    padding: 0px;
+    color: rgb(252, 250, 247);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode'
+    ,Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-weight: bold;
+}
+/*global class*/
+.header{
+    padding: 10px 20px 5px 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+.header span{
+    padding-top: 20% ;
+}
+.header_rightside{
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    text-align: center;
+    align-items: end;
+    padding: 10px 0px 1px 40px;
+    margin-right: 0px;
+}
+.header_rightside_swiththeme{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box_radius{
+    border-radius: 5px;
+}
+/*theme1*/
+.contener{
+    margin: auto;
+    padding: 20px;
+    width: 400px;
+    background-color: rgb(63, 72, 97);
+}
+.header_rightside-swithtbuttun{
+margin-top: 3px;
+padding-right: 40px;
+background-color: rgb(19, 18, 47);
+border-radius: 20px;
+}
+.swithtbuttun{
+padding: 10px 10px 10px 10px; 
+border-radius: 10px;
+position: relative;
+right:0%;
+overflow: hidden;
+}
+.result{
+    background-color: rgb(19, 18, 47);
+    margin: 15px;
+    padding: 40px;
+}
+.buttens{
+    background-color: rgb(28, 43, 69);
+    padding: 5px;
+    margin: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.smallbuttens_design{
+    padding: 15px;
+    margin: 15px;
+    background-color: antiquewhite;
+    color: rgb(28, 43, 69) ;
+    box-shadow: 0px 0px 12px 0px rgb(6, 7, 9) ;
+    width: 30px;
+
+}
+.smallbuttens_design:hover{
+    transition: 0.25s;
+    color: antiquewhite;
+    background-color: rgb(76, 93, 122);
+    cursor: pointer;
+}
+.largebuttens_design{
+    padding: 10px 60px 10px 60px;
+    margin: 15px;
+    background-color: antiquewhite;
+    color: rgb(28, 43, 69) ;
+    box-shadow: 0px 0px 12px 0px rgb(167, 172, 181) ;
+    width: 30px;
+    box-shadow: 0px 0px 12px 0px rgb(6, 7, 9) ;
+}
+.largebuttens_design:hover{
+    transition: 0.25s;
+    color: antiquewhite;
+    background-color: rgb(76, 93, 122);
+    cursor: pointer;
+}
+.orange-color{
+    background-color: rgb(184, 58, 35);
+}
+.gray-color{
+    background-color: rgb(96, 113, 119);
+    text-indent: -5px;
+}
+/*theme2*/
+.contener2{
+    margin: auto;
+    padding: 20px;
+    width: 400px;
+    background-color: rgb(38, 21, 54);
+}
+.header_rightside-swithtbuttun2{
+margin-top: 3px;
+padding-right: 40px;
+background-color: rgb(69, 38, 103);
+border-radius: 20px;
+}
+.result2{
+    background-color: rgb(69, 38, 103);
+    margin: 15px;
+    padding: 40px;
+}
+.buttens2{
+    background-color: rgb(51, 28, 69);
+    padding: 5px;
+    margin: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.smallbuttens_design2{
+    padding: 15px;
+    margin: 15px;
+    background-color: rgb(200, 190, 55);
+    color: rgb(57, 17, 96) ;
+    box-shadow: 0px 0px 12px 0px rgb(7, 6, 9) ;
+    width: 30px;
+
+}
+.smallbuttens_design2:hover{
+    transition: 0.25s;
+    color: rgb(200, 190, 55);
+    background-color: rgb(97, 76, 122);
+    cursor: pointer;
+}
+.largebuttens_design2{
+    padding: 10px 60px 10px 60px;
+    margin: 15px;
+    background-color: rgb(200, 190, 55);
+    color: rgb(77, 26, 100) ;
+    box-shadow: 0px 0px 12px 0px rgb(167, 172, 181) ;
+    width: 30px;
+    box-shadow: 0px 0px 12px 0px rgb(6, 7, 9) ;
+}
+.largebuttens_design2:hover{
+    transition: 0.25s;
+    color: rgb(200, 190, 55);
+    background-color: rgb(112, 76, 122);
+    cursor: pointer;
+}
+.blue-color{
+    background-color: rgb(35, 105, 184);
+}
+.light-purpel-color{
+    background-color: rgb(140, 97, 138);
+    text-indent: -5px;
+}
+.swithtbuttun2{
+    padding: 10px 10px 10px 10px; 
+    border-radius: 10px;
+    position: relative;
+    right: -100%;
+    overflow: hidden;
+    }
+/*theme3*/
+.contener3{
+    margin: auto;
+    padding: 20px;
+    width: 400px;
+    background-color: rgb(8, 45, 32);
+}
+.header_rightside-swithtbuttun3{
+    margin-top: 3px;
+    padding-right: 40px;
+    background-color: rgb(38, 103, 55);
+    border-radius: 20px;
+ }
+ .result3{
+        background-color: rgb(38, 103, 41);
+        margin: 15px;
+        padding: 40px;
+}
+.buttens3{
+    background-color: rgb(29, 69, 28);
+    padding: 5px;
+    margin: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.smallbuttens_design3{
+    padding: 15px;
+    margin: 15px;
+    background-color: rgb(84, 111, 172);
+    color: rgb(28, 69, 44) ;
+    box-shadow: 0px 0px 12px 0px rgb(6, 7, 9) ;
+    width: 30px;
+
+}
+.smallbuttens_design3:hover{
+    transition: 0.25s;
+    color: rgb(106, 55, 200);
+    background-color:  rgb(28, 69, 44) ;
+    cursor: pointer;
+}
+.largebuttens_design3{
+    padding: 10px 60px 10px 60px;
+    margin: 15px;
+    background-color: rgb(200, 190, 55);
+    color: rgb(77, 26, 100) ;
+    box-shadow: 0px 0px 12px 0px rgb(167, 172, 181) ;
+    width: 30px;
+    box-shadow: 0px 0px 12px 0px rgb(6, 7, 9) ;
+}
+.largebuttens_design3:hover{
+    transition: 0.25s;
+    color: rgb(106, 55, 200);
+    background-color:  rgb(28, 69, 44) ;
+    cursor: pointer;
+}
+.green-color{
+    background-color: rgb(138, 189, 118);
+}
+.light-green-color{
+    background-color: rgb(99, 119, 96);
+    text-indent: -5px;
+}
+.swithtbuttun3{
+    padding: 10px 10px 10px 10px; 
+    border-radius: 10px;
+    position: relative;
+    right: -200%;
+    overflow: hidden;
+}
+/*Responsiveness*/
+@media(min-width:1536){}
+@media(min-width:1280){}
+@media(min-width:1024){}
+@media(min-width:768){}
+@media(min-width:640){}
+@media(min-width:475){}
